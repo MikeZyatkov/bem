@@ -1,0 +1,20 @@
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list__row {
+    height: 50px;
+    border: 1px solid red;
+}
+
+.list__row_theme_light {
+    color: black;
+    background-color: olivedrab;
+}
+
+.list__row_theme_dark {
+    color: white;
+    background-color: black;
+}
+
